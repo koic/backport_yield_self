@@ -1,4 +1,4 @@
-# backport_yield_self [![Build Status](https://travis-ci.org/koic/backport_yield_self.svg)](https://travis-ci.org/koic/backport_yield_self)
+# backport_yield_self [![Build Status](https://travis-ci.org/koic/backport_yield_self.svg)](https://travis-ci.org/koic/backport_yield_self) [![Gem Version](https://badge.fury.io/rb/backport_yield_self.svg)](http://badge.fury.io/rb/backport_yield_self)
 
 backport_yield_self is the backport of `Kernel#yield_self` in Ruby 2.5 to older Ruby versions.
 
