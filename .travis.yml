@@ -1,0 +1,12 @@
+language: ruby
+before_install:
+  - gem install bundler
+gemfile:
+  - Gemfile
+rvm:
+  - 2.2.9
+  - 2.3.6
+  - 2.4.3
+script:
+  - bundle exec rake compile
+  - bundle exec rspec spec
