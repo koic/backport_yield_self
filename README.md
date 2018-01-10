@@ -57,8 +57,7 @@ backport_yield_self is released under the [MIT License](http://www.opensource.or
 
 ### Get the original codes
 
-* Kernel#yield_self[https://github.com/ruby/ruby/commit/cec0668](https://github.com/ruby/ruby/commit/cec0668209483a3f233574211c4b8fbd3d1d64b7)
-https://github.com/ruby/ruby/commit/29862685c0acf3a40c6b1f9e8780cbbd86cba658#diff-24411fb2a634ee46e29925b04767d15e)
+* Kernel#yield_self [https://github.com/ruby/ruby/commit/cec0668](https://github.com/ruby/ruby/commit/cec0668209483a3f233574211c4b8fbd3d1d64b7)
 
 ## Special Thanks
 
