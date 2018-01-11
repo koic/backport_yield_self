@@ -33,11 +33,11 @@ require 'backport_yield_self'
 ## Synopsis
 
 ```ruby
-"my string".yield_self {|s| s.upcase } #=> "MY STRING"
+'my string'.yield_self {|s| s.upcase } #=> "MY STRING"
 3.next.yield_self {|x| x**x }.to_s     #=> "256"
 ```
 
-## Supported Versions
+## Supported Ruby versions
 
 * Ruby 2.2
 * Ruby 2.3

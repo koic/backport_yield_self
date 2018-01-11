@@ -1,4 +1,4 @@
-describe Object do
+describe Kernel do
   describe '#yield_self' do
     let(:object) { Object.new }
 
