@@ -31,11 +31,12 @@ rb_obj_hide(VALUE obj)
 /*
  *  call-seq:
  *     obj.yield_self {|x| block }    -> an_object
+ *     obj.then {|x| block }          -> an_object
  *
  *  Yields self to the block and returns the result of the block.
  *
- *     "my string".yield_self {|s| s.upcase }   #=> "MY STRING"
  *     3.next.yield_self {|x| x**x }.to_s       #=> "256"
+ *     "my string".yield_self {|s| s.upcase }   #=> "MY STRING"
  *
  */
 
@@ -55,4 +56,5 @@ Init_backport_yield_self(void)
     rb_mKernel = rb_define_module("Kernel");
 
     rb_define_method(rb_mKernel, "yield_self", rb_obj_yield_self, 0);
+    rb_define_method(rb_mKernel, "then", rb_obj_yield_self, 0);
 }

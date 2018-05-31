@@ -1,3 +1,7 @@
+## Unreleased
+
+* Add a new alias `then` to `Kernel#yield_self`.
+
 ## 1.0.0
 
 * This release has not changed. It is probably the last release.

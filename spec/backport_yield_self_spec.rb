@@ -8,5 +8,6 @@ describe Kernel do
     specify { expect(object.yield_self.size).to eq 1 }
     specify { expect('my string'.yield_self {|s| s.upcase }).to eq 'MY STRING' }
     specify { expect(3.next.yield_self {|x| x**x }.to_s).to eq '256' }
+    specify { expect(object.then { 42 }).to eq 42 }
   end
 end
