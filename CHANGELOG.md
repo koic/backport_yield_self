@@ -1,4 +1,4 @@
-## Unreleased
+## 2.0.0
 
 * Add a new alias `then` to `Kernel#yield_self`.
 

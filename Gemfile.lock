@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    backport_yield_self (1.0.0)
+    backport_yield_self (2.0.0)
 
 GEM
   remote: https://rubygems.org/
